@@ -191,4 +191,89 @@
         background-color: white;
         margin: 170px 0px 0px 50px;
 }
+/* Footer: subscriber  */
+#Subscribe{
+    position: absolute;
+    display: flex;
+    border: 2px slid red;
+    margin-top: 130px;
+    background-color: #151414;
+    justify-content: space-between;
+    width: 100%;
+}
+/* CSS for footer left box  */
+.boxA{
+    position: relative;
+    display: block;
+    /* border: 2px solid orangered; */
+    margin-top: 100px;
+    margin-left: 230px;
+    margin-bottom: 100px;
+
+}
+.boxA h1{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.boxA p{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.boxA .icon{
+    /* border: 2px solid green; */
+    display: flex;
+    position:initial;
+    margin: 0px; 
+    padding: 0px;
+}
+.boxA .icon .box1{
+    margin-left: -80px;
+}
+.boxA .icon .box2{
+    position: relative;
+    margin-left: -30px;
+}
+.boxA .icon .box3{
+    margin-left: -80px;
+}
+/* CSS for footer right box  */
+.boxB{
+    position: relative;
+    display: block;
+    /* border: 2px solid green; */
+    margin-top: 100px;
+    margin-left: 31px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+}
+.boxB h1{
+    color: white;
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.boxB ul li{
+    list-style: none;
+    margin-top: 15px;
+    margin-left: -40px;
+    text-align: left;
+}
+.boxB ul input{
+    width: 325px;
+    height: 64px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: #151414;
+    font-size: 20px;
+    text-decoration-color: white;
+}
+.boxB ul button{
+    width: 170px;
+    height: 64px;
+    background-color: #005FAC;
+    color: white;
+    font-size: 24px;
+    border-style: none;
+    border-radius: 10px;
+}
+
 
