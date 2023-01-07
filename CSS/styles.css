@@ -1,0 +1,194 @@
+/* Navigation bar style */
+#navbar{
+    position:sticky;
+    top: 0px;
+    left: 0px;
+}
+#navbar ul{
+    display: flex;   
+}
+#navbar ul li{
+    list-style: none;
+    margin: 20px 10px;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display:block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+} 
+#navbar::before{
+    content:"";
+    background-color:#005FAC;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4; 
+}
+#navbar ul li a:hover{
+    color: black;
+    background: white;
+}
+/* Home section style */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    margin-right: 200px;
+    font-family:sans-serif;
+    font-family: 'Aclonica', sans-serif;
+    font-family: 'DM Serif Display', serif;
+}
+#home::before{
+    content:"";
+    position: absolute;
+    background:url('../images/banner/banner3.png');
+    height: 110%;
+    width: 100%; 
+    z-index: -1;
+    opacity: 0.89;
+}
+/* Utility Classes */
+.h-primary{
+    font-size: 2.8rem;
+}
+#home .btn{
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1175px;
+    top: 508px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-style:none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: #005FAC;
+}
+/* My failure section  */
+#My-failures{
+    /* border: 2px solid orangered; */
+}
+.person-img{
+    /* border: 2px solid green; */
+    position:absolute;
+    left: 205px;
+    top: 800px; 
+}
+.person-description{
+    position: absolute;
+    /* border: 2px solid red; */
+    text-align: left;
+    margin: 400px 200px 200px 800px;
+}
+.person-description ul li{
+    list-style: none;
+    font-size: none;
+    font-family:cursive;
+}
+.person-description h1{
+    font-style: none;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Aclonica', sans-serif;
+}
+.person-description p{
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: 'Work Sans', sans-serif;;
+}
+/* Section: My Plans  */
+.My-plans-container .h-primary{
+    margin: 1100px 0px 0px 600px;
+    font-family: 'Aclonica', sans-serif;
+}
+#My-plans{
+     margin: 34px;
+     display: flex;
+}
+#My-plans{
+    /* border: 2px solid brown; */
+    justify-content: space-around;
+    margin: 100px 220px 100px 220px;
+}
+/* Utility Classes */
+.h-secondary{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: 30px;
+    padding: 0px;
+}
+.my-failures-para{
+    text-align: center;
+    font-size: 25px;
+    font-size:large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color:#778997;
+}
+.box1 img{
+    /* position: absolute; */
+    margin: 0 20px 0px 85px;
+}
+.box2 img{
+    /* position: absolute; */
+    margin: 0 20px 0px 25px;
+}
+.box3 img{
+    /* position: absolute; */
+    margin: 0 20px 0px 75px;
+}
+.box4 img{
+    /* position: absolute; */
+    margin: 0 20px 0px 10px;
+}
+
+/* section: Call Now */
+/* #call-now img{
+    z-index: -1;
+    margin: 0 0 0 230px;
+} */
+
+.call-now-div{
+    /* border: 2px solid orangered; */
+    border-radius: 10px;
+    margin: 0px 230px 0px 230px;
+    height: 298px;
+    background-image: url('../images/watch.png');
+    background-size: cover;
+    background-position: center;
+}
+.call-now-div .image-overly{
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../images/gradient1.png');
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.call-now-div .mindset{
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-weight: 700;
+    margin: 50px 0px 0px 50px;
+}
+#call-now .btn2{
+        position: absolute;
+        width: 160px;
+        height: 64px;
+        border-style: none;
+        border-radius: 10px;
+        font-size: 20px;
+        font-style:none;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        color: #005FAC;
+        background-color: white;
+        margin: 170px 0px 0px 50px;
+}
+
